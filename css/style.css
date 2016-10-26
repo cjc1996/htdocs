@@ -1,27 +1,36 @@
+/* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css?family=Trirong');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+/* IMPORTED FONTS */
 
+/* HTML SELECTORS */
 *{
   margin: 0 0;
   padding: 0 0;
-}
+} /*universal clear */
 
 body{
   background: #f2f2f2;
   color: #0d0d0d;
-}
+} /*body tag setup */
 
 h1, h2, h3, h4, h5, h6{
   font-family: 'Trirong', serif;
   font-size: 26px;
-}
+} /*h tag setip */
 
 p{
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
-}
+} /*p tag setup */
 
-.heading{
+img a{
+  border: none;
+}
+/* HTML SELECTORS */
+
+/* CLASSES */
+.heading-control{
   background: #80ced6;
   border-bottom: solid #618685 4px;
   padding: 10px;
@@ -29,4 +38,46 @@ p{
   font-size: 26px;
   font-weight: bold;
   text-align: center;
+} /*styling for the main heading */
+
+.thumbnail-link{
+  font-size: 16px;
+  text-decoration: none;
+  color: #0d0d0d;
+  background: #80ced6;
+  padding: 3px;
+  border-radius: 2px;
+  transition: 0.5s;
 }
+
+.thumbnail-link:hover{
+  background: #618685;
+  color: #f2f2f2;
+}
+
+.thumbnail-item{
+  text-align: center;
+  margin-top: 10px;
+  display: block;
+}
+
+.thumbnail-title{
+  font-family: 'Raleway', sans-serif;
+}
+
+.thumbnail-image{
+  border: solid #618685 4px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.footer-control{
+  background: #80ced6;
+  border-top: solid #618685 3px;
+  padding: 5px;
+  font-family: 'Trirong', serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+/* CLASSES */
