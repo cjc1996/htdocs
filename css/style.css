@@ -1,4 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 *{
   margin: 0 0;
   padding: 0 0;
+}
+
+body{
+  background: #f2f2f2;
+  color: #0d0d0d;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Trirong', serif;
+  font-size: 26px;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+.heading{
+  background: #80ced6;
+  border-bottom: solid #618685 4px;
+  padding: 10px;
+  font-family: 'Trirong', serif;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
 }
