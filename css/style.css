@@ -72,6 +72,14 @@ img a{
   margin-top: 5px;
 }
 
+.image-link{
+  transition: 0.5s;
+}
+
+.image-link:hover{
+  opacity: 0.75;
+}
+
 .footer-control{
   background: #80ced6;
   border-top: solid #618685 3px;
